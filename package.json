@@ -1,0 +1,14 @@
+{
+  "name": "base-subgraph",
+  "version": "0.1.0",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --studio base-uniswap-v3",
+    "deploy:hosted": "graph deploy --product hosted-service fabt31/base-subgraph"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "^0.65.0",
+    "@graphprotocol/graph-ts": "^0.31.0"
+  }
+}
